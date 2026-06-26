@@ -97,6 +97,12 @@ It demonstrates a structured architecture by implementing specialized helper fun
 
 ---
 
+## 🧠 Application to ML, NLP & Data Science
+* **Text Preprocessing in NLP:** Cleaning text inputs using `.strip()` and `.lower()`, and segmenting sentences using `.split()`, are the exact foundational steps of tokenization and preprocessing required for NLP training pipelines (e.g., preparing text for bag-of-words or TF-IDF representations).
+* **Feature Engineering & Transformation:** Defining isolated, deterministic mathematical functions (like temperature scaling and basic calculations) mimics the custom transformers needed to engineer features and normalize inputs before feeding datasets into machine learning algorithms.
+
+---
+
 ## Example Outputs
 
 ### Problem 4: Celsius to Fahrenheit Converter
