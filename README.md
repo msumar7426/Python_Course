@@ -16,7 +16,7 @@ Python_Course/
 ├── README.md                          # Main repository overview (You are here)
 │
 ├── 01_functions_variables/            # Day 1: Inputs, Outputs, String Cleaning, Math & custom functions
-├── 02_conditionals/                   # Day 2: Decision Trees, logic operators, and control flow [Planned]
+├── 02_conditionals/                   # Day 2: Decision Trees, logic operators, and control flow [In Progress]
 ├── 03_loops/                          # Day 3: Iterations, lists, dictionaries, and collections [Planned]
 ├── 04_exceptions/                     # Day 4: Defensive coding, error handling, and validation [Planned]
 ├── 05_libraries/                      # Day 5: Reusability, standard modules, and APIs [Planned]
@@ -38,7 +38,7 @@ Python_Course/
 | Lecture / Module | Core Focus | Key Learning Outputs | Status |
 | :--- | :--- | :--- | :---: |
 | **[01_functions_variables](./01_functions_variables)** | Variables, string methods, float formatting, custom functions | Email Extractor, Simple Calculator, [Text Analyzer Mini-Project](./01_functions_variables/mini_project/Text_Analyzer.py) | 🟩 Complete |
-| **02_conditionals** | Control flow, logical operators, match-case structures | Decision-making logic, boundary checks | ⬜ Planned |
+| **[02_conditionals](./02_conditionals)** | Control flow, logical operators, match-case structures | Decision-making logic, boundary checks | 🟨 In Progress |
 | **03_loops** | `while` and `for` loops, lists, dictionaries | Data collection processing, iteration control | ⬜ Planned |
 | **04_exceptions** | `try-except` blocks, custom raising, input validation | Error-handling guards, defensive program designs | ⬜ Planned |
 | **05_libraries** | Command-line args, pip packages, APIs | Integrating external APIs, custom libraries imports | ⬜ Planned |

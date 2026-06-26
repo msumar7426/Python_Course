@@ -1,12 +1,14 @@
-#Convert Fahrenheit to Celsius
+# Convert Fahrenheit to Celsius
+
 
 def fahrenheit_to_celsius(temp):
-    Celsius=(temp-32)*5/9
-    return Celsius
+    celsius = (temp - 32) * 5/9
+    return celsius
+
 
 def main():
-    temp_in_fahrenheit=float(input("Enter temp in F: "))
-    result=fahrenheit_to_celsius(temp_in_fahrenheit)
+    temp_in_fahrenheit = float(input("Enter temp in F: "))
+    result = fahrenheit_to_celsius(temp_in_fahrenheit)
     print(f"The temperature in Celsius will be {result:.4f}")
 
 main()

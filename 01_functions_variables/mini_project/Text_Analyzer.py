@@ -1,17 +1,22 @@
 def lowercase(sentence):
     return sentence.lower()
 
+
 def uppercase(sentence):
     return sentence.upper()
+
 
 def titlecase(sentence):
     return sentence.title()
 
+
 def first_word(sentence):
     return sentence.split()[0]
 
+
 def character_count(sentence):
     return len(sentence)
+
 
 def main():
     sentence = input("Enter a sentence: ")
