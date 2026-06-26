@@ -25,6 +25,8 @@ Python_Course/
 ├── 08_regular_expressions/            # Day 8: String validation, cleaning, and pattern matching [Planned]
 ├── 09_object_oriented_programming/    # Day 9: Classes, encapsulation, inheritance, and properties [Planned]
 │
+├── 03_nlp_sentiment_analyzer/         # 🧠 Bonus NLP Project: Rule-Based Sentiment Analyzer
+│
 └── Resources/                         # Supporting learning assets
     ├── Cheat_Sheets/                  # Syntactical guides and quick references
     ├── Notes/                         # Global annotations and cheat guides
@@ -46,6 +48,7 @@ Python_Course/
 | **07_file_io** | Reading/writing text, CSV files, and binary streams | Persistent database files, log readers | ⬜ Planned |
 | **08_regular_expressions** | Pattern matching, email validation, extraction | Clean data pipelines, validation mechanisms | ⬜ Planned |
 | **09_object_oriented_programming** | Classes, objects, inheritance, getter/setters | Custom data models, robust backend abstractions | ⬜ Planned |
+| 🧠 **[03_nlp_sentiment_analyzer](./03_nlp_sentiment_analyzer)** | Applied NLP: Bag of Words, keyword scoring | [Sentiment Analyzer](./03_nlp_sentiment_analyzer/sentiment_analyzer.py) — built from Lectures 1 & 2 | 🟨 In Progress |
 
 ---
 
