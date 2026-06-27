@@ -28,7 +28,8 @@ Welcome to **Day 02** of the Python Playlist! Today's focus is on control flow, 
 ├── challenge_problems/
 │   └── Problem_1_Login_System.py         # Credentials authenticator using string inputs
 └── mini_project/
-    └── smart_assistant.py                # Interactive command center compiling all tools
+    ├── smart_assistant.py                # Interactive command center compiling all tools
+    └── sentiment_analyzer.py             # 🧠 Rule-based NLP sentiment classifier (Bonus)
 ```
 
 ---
@@ -54,6 +55,14 @@ The **Smart Assistant** (`mini_project/smart_assistant.py`) compiles all Day 1 a
 * Clean submenus (e.g., temperature scale selections).
 * Nested matching systems.
 * Input validation structures (like preventing division-by-zero crashes on calculator tools).
+
+### 🧠 NLP Sentiment Analyzer (Bonus Mini Project)
+The **Sentiment Analyzer** (`mini_project/sentiment_analyzer.py`) is a rule-based Natural Language Processing project built using only the concepts from Days 1 and 2. It demonstrates how conditionals and string methods can power real-world NLP tasks. It features:
+* **Text cleaning** — strips whitespace and lowercases input via `clean_text()`.
+* **Keyword scoring** — counts positive and negative signal words using `.count()` calls (a no-loops technique).
+* **Sentiment classification** — compares scores with `if/elif/else` to return `Positive`, `Negative`, or `Mixed Emotions`.
+* **Confidence scoring** — measures the gap between scores to output `High`, `Moderate`, or `Low` confidence.
+* A clean `main()` function that ties all steps into a single analysis pipeline.
 
 ---
 
@@ -100,4 +109,15 @@ Enter your choice: 4
 Enter 1st number: 10
 Enter 2nd number: 0
 Error: Denominator cannot be zero.
+```
+
+### 🧠 NLP Sentiment Analyzer
+```text
+Enter a review or comment to analyze: This product is amazing and I love the great quality!
+   Word Count       : 10
+   Character Count  : 56
+   Positive Signals : 3
+   Negative Signals : 0
+   Sentiment        : Sentiment is Positive
+   Confidence       : Confidence Score is high
 ```

@@ -25,7 +25,6 @@ Python_Course/
 ├── 08_regular_expressions/            # Day 8: String validation, cleaning, and pattern matching [Planned]
 ├── 09_object_oriented_programming/    # Day 9: Classes, encapsulation, inheritance, and properties [Planned]
 │
-├── 03_nlp_sentiment_analyzer/         # 🧠 Bonus NLP Project: Rule-Based Sentiment Analyzer
 │
 └── Resources/                         # Supporting learning assets
     ├── Cheat_Sheets/                  # Syntactical guides and quick references
@@ -40,7 +39,7 @@ Python_Course/
 | Lecture / Module | Core Focus | Key Learning Outputs | Status |
 | :--- | :--- | :--- | :---: |
 | **[01_functions_variables](./01_functions_variables)** | Variables, string methods, float formatting, custom functions | Email Extractor, Simple Calculator, [Text Analyzer Mini-Project](./01_functions_variables/mini_project/Text_Analyzer.py) | 🟩 Complete |
-| **[02_conditionals](./02_conditionals)** | Control flow, logical operators, match-case, input validation | Age Classifier, Login System, [Smart Assistant Mini-Project](./02_conditionals/mini_project/smart_assistant.py) | 🟩 Complete |
+| **[02_conditionals](./02_conditionals)** | Control flow, logical operators, match-case, input validation | Age Classifier, Login System, [Smart Assistant](./02_conditionals/mini_project/smart_assistant.py), [🧠 NLP Sentiment Analyzer](./02_conditionals/mini_project/sentiment_analyzer.py) | 🟩 Complete |
 | **03_loops** | `while` and `for` loops, lists, dictionaries | Data collection processing, iteration control | ⬜ Planned |
 | **04_exceptions** | `try-except` blocks, custom raising, input validation | Error-handling guards, defensive program designs | ⬜ Planned |
 | **05_libraries** | Command-line args, pip packages, APIs | Integrating external APIs, custom libraries imports | ⬜ Planned |
@@ -48,7 +47,6 @@ Python_Course/
 | **07_file_io** | Reading/writing text, CSV files, and binary streams | Persistent database files, log readers | ⬜ Planned |
 | **08_regular_expressions** | Pattern matching, email validation, extraction | Clean data pipelines, validation mechanisms | ⬜ Planned |
 | **09_object_oriented_programming** | Classes, objects, inheritance, getter/setters | Custom data models, robust backend abstractions | ⬜ Planned |
-| 🧠 **[03_nlp_sentiment_analyzer](./03_nlp_sentiment_analyzer)** | Applied NLP: Bag of Words, keyword scoring | [Sentiment Analyzer](./03_nlp_sentiment_analyzer/sentiment_analyzer.py) — built from Lectures 1 & 2 | 🟨 In Progress |
 
 ---
 
